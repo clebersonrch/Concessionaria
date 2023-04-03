@@ -1,3 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div#inicio{
+    box-shadow: 0px 0px 10px white;
+    padding: 0px 10px 10px 10px;
+    margin: 60px;
+}
+
+header#cabecalho{
+    border-bottom: 1px black solid;
+    text-align: center;
+}
+
 body {
     background-color: mediumaquamarine;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -6,7 +22,6 @@ body {
 
 h1 {
     color: white;
-    text-align: center;
     font-size: 50px;
     margin-top: 50px;
 }
@@ -18,6 +33,7 @@ a {
 
 section {
     color: white;
+    margin: 60px;
 }
 
 nav#menu{
@@ -26,8 +42,7 @@ nav#menu{
 
 footer{
     text-align: center;
-    color: white;
+    color: red;
     font-size: 20px;
-    margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
 }
